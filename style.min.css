@@ -153,6 +153,10 @@ a:hover {
 .team5 .member .social a:hover i {
   color: #fff;
 }
+.member{
+  transform: translateY(0) !important;
+
+}
 #header .logo img {
   max-height: 60px;
 }
