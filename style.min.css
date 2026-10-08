@@ -459,6 +459,70 @@ section {
 .section-bg-white {
   background-color: #fff;
 }
+.organizer {
+  padding: 48px 0;
+  background: linear-gradient(135deg, #f4fbff 0%, #eef8f5 100%);
+}
+.organizer-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  padding: 28px 40px;
+  background: #fff;
+  border: 1px solid #d7e8ef;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(15, 79, 119, 0.1);
+}
+.organizer-logo {
+  width: 170px;
+  height: 170px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+.organizer-label {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #528f62;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.organizer-text h2 {
+  margin: 0 0 10px;
+  color: #123b61;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.organizer-text p {
+  margin: 0;
+  color: #526a7e;
+  font-size: 19px;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .organizer {
+    padding: 32px 0;
+  }
+  .organizer-card {
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px 18px;
+    text-align: center;
+  }
+  .organizer-logo {
+    width: 140px;
+    height: 140px;
+  }
+  .organizer-text h2 {
+    font-size: 22px;
+  }
+  .organizer-text p {
+    font-size: 16px;
+  }
+}
 .section-title {
   text-align: center;
   padding-bottom: 30px;
